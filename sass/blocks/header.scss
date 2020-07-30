@@ -1,5 +1,5 @@
 .header {
-  background: url("/img/screen-bg.jpg") 35% top no-repeat $black;
+  background: url("../../img/screen-bg.jpg") 35% top no-repeat $black;
   background-size: cover;
   color: $white;
   position: relative;
@@ -62,7 +62,7 @@
 }
 
 .header__lider {
-  background: url("/img/rectangle.png") center no-repeat;
+  background: url("../../img/rectangle.png") center no-repeat;
   background-size: 288px 54px;
   font-size: px-to-rem(14px);
   line-height: px-to-rem(54px);
@@ -74,7 +74,7 @@
 
   &::after {
     content: "";
-    background: url("/img/medal.png");
+    background: url("../../img/medal.png");
     width: 82px;
     height: 83px;
     position: absolute;
@@ -101,11 +101,11 @@
 
 @media (min-resolution: 2dppx) {
   .header {
-    background-image: url("/img/screen-bg-2x.jpg");
+    background-image: url("../../img/screen-bg-2x.jpg");
   }
   .header__lider {
     &::after {
-      background-image: url("/img/medal-2x.png");
+      background-image: url("../../img/medal-2x.png");
       background-size: cover;
     }
   }

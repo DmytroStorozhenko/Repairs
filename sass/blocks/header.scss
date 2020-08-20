@@ -111,11 +111,11 @@
   }
 }
 
-@media (min-width: 580px) {
+@media (min-width: 540px) {
   .header {
     background-position: center top;
   }
-
+    
   .header__buttons {
     display: flex;
     flex-direction: row;
@@ -168,5 +168,9 @@
     flex-direction: column;
     justify-content: center;
     height: calc(100% - 240px);
+  }
+
+  .header__wrap-two {
+    padding-bottom: 72px;
   }
 }

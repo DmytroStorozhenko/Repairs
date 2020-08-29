@@ -53,6 +53,10 @@
   text-align: center;
   margin-bottom: 24px;
 
+  &:first-child, &:nth-child(2), &:nth-child(3) {
+    display: none;
+  }
+
   &:last-child {
     margin-bottom: 0;
   }
@@ -95,16 +99,19 @@
     position: absolute;
 
     &:nth-child(1) {
+      display: inline;
       left: 35px;
       top: 150px;
     }
 
     &:nth-child(2) {
+      display: inline;
       left: 460px;
       top: 236px;
     }
 
     &:nth-child(3) {
+      display: inline;
       left: 730px;
       top: 0px;
     }
